@@ -33,7 +33,7 @@ Supporting tables: `security` (user email to region) and `_measure` (measures).
 - No two fact tables are connected directly; they share dimensions.
 - `dim_geo` is used twice by `fact_sales` (ship-to city active, bill-to city inactive).
 
-![Data model](images/Model_View.png)
+![Data model](images/Model_view.png)
 
 ## Measures
 
