@@ -33,7 +33,7 @@ Supporting tables: `security` (user email to region) and `_measure` (measures).
 - No two fact tables are connected directly; they share dimensions.
 - `dim_geo` is used twice by `fact_sales` (ship-to city active, bill-to city inactive).
 
-![Data model](images/model-view.png)
+![Data model](images/Model_View.png)
 
 ## Measures
 
@@ -55,7 +55,7 @@ Role **Regional Access** on `dim_customer`:
 
 Tested with *View as*: a regional user only sees their own region.
 
-![Security test](images/security-test.png)
+![Security test](images/manage_roles.png)
 
 ## Standards used
 
